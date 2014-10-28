@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">SyncManagerDemoGoogleTasks</string>
+    <string name="action_sync">Sync</string>
+    <string name="task_title">Task title</string>
+    
+</resources>

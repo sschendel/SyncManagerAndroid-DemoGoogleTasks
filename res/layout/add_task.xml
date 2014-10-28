@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Task title" />
+    <EditText
+    	android:id="@+id/add_task_title" 
+    	android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:inputType="text"
+		/>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text=" " />
+	<Button 
+		android:id="@+id/add_task_save" 
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+	   	android:text="Save"
+	/>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" 
+     />
+</TableLayout>
