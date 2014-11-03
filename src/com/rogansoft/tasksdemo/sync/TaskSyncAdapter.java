@@ -72,7 +72,7 @@ public class TaskSyncAdapter extends AbstractThreadedSyncAdapter {
 			try {
 				TaskSyncLocalDatastore localDatastore = new TaskSyncLocalDatastore(db); 
 				TaskSyncRemoteDatastore remoteDatastore = new TaskSyncRemoteDatastore(api);
-				SyncManager<Task> syncManager = new SyncManager<Task>(localDatastore, remoteDatastore);
+				SyncManager<Task, Task> syncManager = new SyncManager<Task, Task>(localDatastore, remoteDatastore);
 
 				syncManager.sync();
 				
