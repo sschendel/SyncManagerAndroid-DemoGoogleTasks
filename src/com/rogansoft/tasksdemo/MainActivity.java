@@ -25,6 +25,7 @@ import com.google.android.gms.auth.UserRecoverableAuthException;
 import com.google.android.gms.common.AccountPicker;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.rogansoft.syncmanagerexample.R;
+import com.rogansoft.tasksdemo.api.GoogleTaskApi;
 import com.rogansoft.tasksdemo.api.GoogleTaskApiService;
 import com.rogansoft.tasksdemo.api.TaskApi;
 import com.rogansoft.tasksdemo.db.TaskDb;
@@ -287,7 +288,7 @@ public class MainActivity extends Activity {
 		private String mAuthToken;
 		
 		public GetGoogleTaskListTasksTask(String authToken) {
-			mApi = new TaskApi(authToken);
+			mApi = new GoogleTaskApi(authToken);
 			mAuthToken = authToken;
 		}
 		
@@ -317,7 +318,7 @@ public class MainActivity extends Activity {
 		private TaskApi mApi;
 		
 		public GetGoogleTaskListTask(String authToken) {
-			mApi = new TaskApi(authToken);
+			mApi = new GoogleTaskApi(authToken);
 		}
 		
 		@Override
@@ -341,7 +342,7 @@ public class MainActivity extends Activity {
 		private Task mTask;
 		
 		public AddGoogleTaskTask(String authToken, Task task) {
-			mApi = new TaskApi(authToken);
+			mApi = new GoogleTaskApi(authToken);
 			mTask = task;
 		}
 		
@@ -365,7 +366,7 @@ public class MainActivity extends Activity {
 		private Task mTask;
 		
 		public UpdateGoogleTaskTask(String authToken, Task task) {
-			mApi = new TaskApi(authToken);
+			mApi = new GoogleTaskApi(authToken);
 			mTask = task;
 		}
 		

@@ -1,8 +1,8 @@
 package com.rogansoft.tasksdemo.domain;
 
-import com.rogansoft.sync.ISyncable;
+import com.rogansoft.sync.Syncable;
 
-public class Task implements ISyncable {
+public class Task implements Syncable {
 
 
 	// fields
@@ -103,7 +103,7 @@ public class Task implements ISyncable {
 		super();
 	}	
 	
-	// Implement ISyncable...
+	// Implement Syncable...
 	
 	@Override
 	public String getRemoteId() {
@@ -127,7 +127,7 @@ public class Task implements ISyncable {
 	}
 
 	@Override
-	public void mapFromRemote(ISyncable remote) {
+	public void mapFromRemote(Syncable remote) {
 		Task remoteTask = (Task) remote;
 		
 		setTitle(remoteTask.getTitle());
@@ -142,7 +142,7 @@ public class Task implements ISyncable {
 	}
 
 	@Override
-	public void mapFromLocal(ISyncable local) {
+	public void mapFromLocal(Syncable local) {
 		Task localTask = (Task) local;
 		
 		setTitle(localTask.getTitle());
@@ -157,7 +157,5 @@ public class Task implements ISyncable {
 				+ ", serverId=" + serverId + ", position=" + position
 				+ ", status=" + status + ", deleted="+deleted+"]";
 	}
-	
-	
 	
 }

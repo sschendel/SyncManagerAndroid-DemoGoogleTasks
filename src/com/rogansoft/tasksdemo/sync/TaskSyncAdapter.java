@@ -15,8 +15,8 @@ import com.google.android.gms.auth.GoogleAuthUtil;
 import com.google.android.gms.auth.UserRecoverableNotifiedException;
 import com.rogansoft.sync.SyncManager;
 import com.rogansoft.tasksdemo.PrefsUtil;
+import com.rogansoft.tasksdemo.api.GoogleTaskApi;
 import com.rogansoft.tasksdemo.api.GoogleTaskApiService;
-import com.rogansoft.tasksdemo.api.ITaskApi;
 import com.rogansoft.tasksdemo.api.TaskApi;
 import com.rogansoft.tasksdemo.db.TaskDb;
 import com.rogansoft.tasksdemo.domain.Task;
@@ -65,7 +65,7 @@ public class TaskSyncAdapter extends AbstractThreadedSyncAdapter {
 			ContentProviderClient provider, SyncResult syncResult) {
 		Log.d(TAG, "onPerformSync");
 		try {
-			ITaskApi api = new TaskApi(getGoogleAuthToken());
+			TaskApi api = new GoogleTaskApi(getGoogleAuthToken());
 			TaskDb db = new TaskDb(mContext);
 	
 			db.open();

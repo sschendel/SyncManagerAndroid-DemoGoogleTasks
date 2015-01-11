@@ -4,14 +4,14 @@ import java.util.List;
 
 import android.util.Log;
 
-import com.rogansoft.sync.IDatastore;
-import com.rogansoft.tasksdemo.api.ITaskApi;
+import com.rogansoft.sync.Datastore;
+import com.rogansoft.tasksdemo.api.TaskApi;
 import com.rogansoft.tasksdemo.domain.Task;
 
-public class TaskSyncRemoteDatastore implements IDatastore<Task> {
+public class TaskSyncRemoteDatastore implements Datastore<Task> {
 	private static final String TAG = "TaskSyncRemoteDatastore";
 
-	private ITaskApi mRemoteApi;
+	private TaskApi mRemoteApi;
 	
 	@Override
 	public List<Task> get() {
@@ -38,7 +38,7 @@ public class TaskSyncRemoteDatastore implements IDatastore<Task> {
 		return result;
 	}
 
-	public TaskSyncRemoteDatastore(ITaskApi api) {
+	public TaskSyncRemoteDatastore(TaskApi api) {
 		super();
 		this.mRemoteApi = api;
 	}

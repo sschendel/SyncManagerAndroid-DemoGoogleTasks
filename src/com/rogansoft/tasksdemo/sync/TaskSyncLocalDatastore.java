@@ -2,11 +2,11 @@ package com.rogansoft.tasksdemo.sync;
 
 import java.util.List;
 
-import com.rogansoft.sync.IDatastore;
+import com.rogansoft.sync.Datastore;
 import com.rogansoft.tasksdemo.db.TaskDb;
 import com.rogansoft.tasksdemo.domain.Task;
 
-public class TaskSyncLocalDatastore implements IDatastore<Task> {
+public class TaskSyncLocalDatastore implements Datastore<Task> {
 	private TaskDb mDb;
 
 	@Override
