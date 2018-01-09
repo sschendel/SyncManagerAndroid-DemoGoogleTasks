@@ -18,6 +18,7 @@ android {
 }
 
 dependencies {
+    //noinspection GradleCompatible
     compile 'com.android.support:support-v4:27.0.2'
     compile 'com.google.code.gson:gson:2.8.2'
 
