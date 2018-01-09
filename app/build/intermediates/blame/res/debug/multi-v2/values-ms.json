@@ -4,6 +4,125 @@
             "outputFile": "D:\\android_workspace\\SyncManagerAndroid-DemoGoogleTasks\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\0abbfe5b1b79a54f2b0335d480145b12\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "241",
+                        "endColumns": "102",
+                        "endOffsets": "343"
+                    },
+                    "to": {
+                        "startLines": "59",
+                        "startColumns": "4",
+                        "startOffsets": "6936",
+                        "endColumns": "106",
+                        "endOffsets": "7038"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-11.8.0.aar\\468e87274e747a3a8d258a4a96513207\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "235,303,411,475,538,615,711",
+                        "endColumns": "67,107,63,62,76,95,68",
+                        "endOffsets": "302,410,474,537,614,710,779"
+                    },
+                    "to": {
+                        "startLines": "63,64,65,66,67,68,69",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "7348,7420,7532,7600,7667,7748,7848",
+                        "endColumns": "71,111,67,66,80,99,72",
+                        "endOffsets": "7415,7527,7595,7662,7743,7843,7916"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.8.0.aar\\5f47f06bc53928a9d9013655578e03cd\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "231,334",
+                        "endColumns": "102,89",
+                        "endOffsets": "333,423"
+                    },
+                    "to": {
+                        "startLines": "61,62",
+                        "startColumns": "4,4",
+                        "startOffsets": "7147,7254",
+                        "endColumns": "106,93",
+                        "endOffsets": "7249,7343"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-11.8.0.aar\\025aaf7a3a61e57c0945e24534edebe2\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "228",
+                        "endColumns": "99",
+                        "endOffsets": "327"
+                    },
+                    "to": {
+                        "startLines": "60",
+                        "startColumns": "4",
+                        "startOffsets": "7043",
+                        "endColumns": "103",
+                        "endOffsets": "7142"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-11.8.0.aar\\06f3412efcf83049c533d121e02c043c\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "0,0,0,0",
+                        "startOffsets": "286,426,565,663",
+                        "endColumns": "139,138,97,101",
+                        "endOffsets": "425,564,662,764"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "1883,2023,2162,2264",
+                        "endColumns": "139,138,101,105",
+                        "endOffsets": "2018,2157,2259,2365"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\21986ace7caa1d61c18502b72c331937\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "281,385,590,718,822,1053,1183,1329,1461,1705,1812,2018,2151,2381,2582,2675,2765",
+                        "endColumns": "103,204,127,103,230,129,145,131,243,106,205,132,229,200,92,89,107",
+                        "endOffsets": "384,589,717,821,1052,1182,1328,1460,1704,1811,2017,2150,2380,2581,2674,2764,2872"
+                    },
+                    "to": {
+                        "startLines": "41,42,43,44,45,46,47,48,50,51,52,53,54,55,56,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4091,4199,4404,4536,4644,4875,5009,5159,5500,5744,5855,6061,6198,6428,6633,6730,6824",
+                        "endColumns": "107,204,131,107,230,133,149,135,243,110,205,136,229,204,96,93,111",
+                        "endOffsets": "4194,4399,4531,4639,4870,5004,5154,5290,5739,5850,6056,6193,6423,6628,6725,6819,6931"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.8.0.aar\\1f0cdbf170e69e265dbd0bbdea07368d\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "296,370,465,557,670,798,887,1040,1157,1264,1380,1478,1579,1653,1743,1836,1940,2010,2080,2149,2222,2311,2403,2498,2594,2690,2763,2863,2956,3050,3164,3307,3399,3486,3587",
+                        "endColumns": "73,94,91,112,127,88,152,116,106,115,97,100,73,89,92,103,69,69,68,72,88,91,94,95,95,72,99,92,93,113,142,91,86,100,75",
+                        "endOffsets": "369,464,556,669,797,886,1039,1156,1263,1379,1477,1578,1652,1742,1835,1939,2009,2079,2148,2221,2310,2402,2497,2593,2689,2762,2862,2955,3049,3163,3306,3398,3485,3586,3662"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,183,282,378,495,623,716,873,994,1105,1225,1327,1432,1510,1604,1701,1809,2370,2444,2517,2594,2687,2783,2882,2982,3082,3159,3263,3360,3458,3576,3719,3815,3906,4011",
+                        "endColumns": "77,98,95,116,127,92,156,120,110,119,101,104,77,93,96,107,73,73,72,76,92,95,98,99,99,76,103,96,97,117,142,95,90,104,79",
+                        "endOffsets": "178,277,373,490,618,711,868,989,1100,1220,1322,1427,1505,1599,1696,1804,1878,2439,2512,2589,2682,2778,2877,2977,3077,3154,3258,3355,3453,3571,3714,3810,3901,4006,4086"
+                    }
+                },
+                {
                     "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\42c3a253abd4aa7b42a9a08e5da2c132\\res\\values-ms\\values-ms.xml",
                     "from": {
                         "startLines": "2",
@@ -11,6 +130,47 @@
                         "startOffsets": "55",
                         "endColumns": "100",
                         "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "70",
+                        "startColumns": "4",
+                        "startOffsets": "7921",
+                        "endColumns": "100",
+                        "endOffsets": "8017"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\c20fffa3c4320ed8b33e09f8d1582739\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "204",
+                        "endOffsets": "487"
+                    },
+                    "to": {
+                        "startLines": "49",
+                        "startColumns": "4",
+                        "startOffsets": "5295",
+                        "endColumns": "204",
+                        "endOffsets": "5495"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.8.0.aar\\3b952637c42a923f36c9a9a4ae9a389e\\res\\values-ms\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "238",
+                        "endColumns": "102",
+                        "endOffsets": "340"
+                    },
+                    "to": {
+                        "startLines": "71",
+                        "startColumns": "4",
+                        "startOffsets": "8022",
+                        "endColumns": "106",
+                        "endOffsets": "8124"
                     }
                 }
             ]

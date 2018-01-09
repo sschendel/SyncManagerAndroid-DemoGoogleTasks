@@ -1,15 +1,5 @@
 package com.rogansoft.tasksdemo.api;
 
-import java.io.IOException;
-import java.lang.reflect.Type;
-import java.text.ParseException;
-import java.util.Date;
-import java.util.List;
-
-import retrofit.RequestInterceptor;
-import retrofit.RestAdapter;
-import retrofit.converter.GsonConverter;
-
 import com.google.gson.FieldNamingPolicy;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -23,6 +13,12 @@ import com.google.gson.stream.JsonWriter;
 import com.rogansoft.tasksdemo.Util;
 import com.rogansoft.tasksdemo.domain.Task;
 import com.rogansoft.tasksdemo.domain.TaskList;
+
+import java.io.IOException;
+import java.lang.reflect.Type;
+import java.text.ParseException;
+import java.util.Date;
+import java.util.List;
 
 public class GoogleTaskApi implements TaskApi {
 	//private static final String TAG = "TaskApi";

@@ -1,7 +1,5 @@
 package com.rogansoft.tasksdemo.sync;
 
-import java.io.IOException;
-
 import android.accounts.Account;
 import android.content.AbstractThreadedSyncAdapter;
 import android.content.ContentProviderClient;
@@ -20,6 +18,8 @@ import com.rogansoft.tasksdemo.api.GoogleTaskApiService;
 import com.rogansoft.tasksdemo.api.TaskApi;
 import com.rogansoft.tasksdemo.db.TaskDb;
 import com.rogansoft.tasksdemo.domain.Task;
+
+import java.io.IOException;
 
 public class TaskSyncAdapter extends AbstractThreadedSyncAdapter {
 	private static final String TAG = "TaskSyncAdapter";

@@ -1,7 +1,5 @@
 package com.rogansoft.tasksdemo;
 
-import com.rogansoft.syncmanagerexample.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +7,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.rogansoft.syncmanagerexample.R;
 
 public class AddTaskActivity extends Activity {
 	//private static final String TAG = "AddTaskActivity";

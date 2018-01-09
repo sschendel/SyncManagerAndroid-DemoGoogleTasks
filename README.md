@@ -1,11 +1,11 @@
 # SyncManagerAndroid-DemoGoogleTasks
-Android Google Tasks app to demonstrate use of SyncManagerAndroid 
+Android Google Tasks app to demonstrate use of SyncManagerAndroid
 
-SyncManagerAndroid-DemoGoogleTasks
-==================================
 
-Android Google Task app to demonstrate use of [SyncManagerAndroid][repo-syncman] library.
-Original repo : https://github.com/sschendel/SyncManagerAndroid-DemoGoogleTasks
+Original repo : https://github.com/sschendel/SyncManagerAndroid-DemoGoogleTasks.
+
+Now [SyncManagerAndroid][repo-syncman] library is embedded as android module into the project.
+
 
 Overview
 --------------------

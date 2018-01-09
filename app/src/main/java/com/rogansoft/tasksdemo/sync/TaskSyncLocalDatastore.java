@@ -1,10 +1,10 @@
 package com.rogansoft.tasksdemo.sync;
 
-import java.util.List;
-
 import com.rogansoft.sync.Datastore;
 import com.rogansoft.tasksdemo.db.TaskDb;
 import com.rogansoft.tasksdemo.domain.Task;
+
+import java.util.List;
 
 public class TaskSyncLocalDatastore implements Datastore<Task> {
 	private TaskDb mDb;

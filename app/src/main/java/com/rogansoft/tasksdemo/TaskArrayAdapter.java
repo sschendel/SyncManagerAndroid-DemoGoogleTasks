@@ -1,8 +1,5 @@
 package com.rogansoft.tasksdemo;
 
-import java.util.ArrayList;
-import java.util.Date;
-
 import android.content.Context;
 import android.graphics.Paint;
 import android.util.Log;
@@ -16,6 +13,9 @@ import android.widget.TextView;
 import com.rogansoft.syncmanagerexample.R;
 import com.rogansoft.tasksdemo.db.TaskDb;
 import com.rogansoft.tasksdemo.domain.Task;
+
+import java.util.ArrayList;
+import java.util.Date;
 
 public class TaskArrayAdapter extends ArrayAdapter<Task> {
 	private static final String TAG = "TaskArrayAdapter";

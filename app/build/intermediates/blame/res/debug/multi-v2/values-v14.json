@@ -4,6 +4,25 @@
             "outputFile": "D:\\android_workspace\\SyncManagerAndroid-DemoGoogleTasks\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\values-v14\\values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15,21,22,23,24,25,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895,1317,1437,1569,1689,1752,1906,1969",
+                        "endLines": "6,7,8,14,20,21,22,23,24,27,28,29",
+                        "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
+                        "endOffsets": "326,397,480,890,1312,1432,1564,1684,1747,1901,1964,2096"
+                    },
+                    "to": {
+                        "startLines": "5,10,11,12,18,24,25,26,27,28,31,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "206,482,553,636,1046,1468,1588,1720,1840,1903,2057,2120",
+                        "endLines": "9,10,11,17,23,24,25,26,27,30,31,32",
+                        "endColumns": "12,70,82,12,12,119,131,119,62,12,62,131",
+                        "endOffsets": "477,548,631,1041,1463,1583,1715,1835,1898,2052,2115,2247"
+                    }
+                },
+                {
                     "source": "D:\\android_workspace\\SyncManagerAndroid-DemoGoogleTasks\\app\\src\\main\\res\\values-v14\\styles.xml",
                     "from": {
                         "startLines": "7",

@@ -1,7 +1,4 @@
 package com.rogansoft.tasksdemo;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -32,6 +29,10 @@ import com.rogansoft.tasksdemo.db.TaskDb;
 import com.rogansoft.tasksdemo.domain.Task;
 import com.rogansoft.tasksdemo.domain.TaskList;
 import com.rogansoft.tasksdemo.sync.TaskSyncContentProvider;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends Activity {

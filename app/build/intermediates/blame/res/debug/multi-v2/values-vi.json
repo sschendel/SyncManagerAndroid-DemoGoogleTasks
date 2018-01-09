@@ -4,13 +4,190 @@
             "outputFile": "D:\\android_workspace\\SyncManagerAndroid-DemoGoogleTasks\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\42c3a253abd4aa7b42a9a08e5da2c132\\res\\values-vi\\values-vi.xml",
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-11.8.0.aar\\06f3412efcf83049c533d121e02c043c\\res\\values-vi\\values.xml",
                     "from": {
-                        "startLines": "2",
+                        "startLines": "4,5,6,7",
+                        "startColumns": "0,0,0,0",
+                        "startOffsets": "286,425,567,665",
+                        "endColumns": "138,141,97,95",
+                        "endOffsets": "424,566,664,760"
+                    },
+                    "to": {
+                        "startLines": "38,39,40,41",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "3865,4004,4146,4248",
+                        "endColumns": "138,141,101,99",
+                        "endOffsets": "3999,4141,4243,4343"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-places-11.8.0.aar\\5f47f06bc53928a9d9013655578e03cd\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "231,330",
+                        "endColumns": "98,93",
+                        "endOffsets": "329,423"
+                    },
+                    "to": {
+                        "startLines": "100,101",
+                        "startColumns": "4,4",
+                        "startOffsets": "10978,11081",
+                        "endColumns": "102,97",
+                        "endOffsets": "11076,11174"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-11.8.0.aar\\468e87274e747a3a8d258a4a96513207\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "235,304,417,484,549,623,717",
+                        "endColumns": "68,112,66,64,73,93,77",
+                        "endOffsets": "303,416,483,548,622,716,794"
+                    },
+                    "to": {
+                        "startLines": "102,103,104,105,106,107,108",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "11179,11252,11369,11440,11509,11587,11685",
+                        "endColumns": "72,116,70,68,77,97,81",
+                        "endOffsets": "11247,11364,11435,11504,11582,11680,11762"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-cast-framework-11.8.0.aar\\1f0cdbf170e69e265dbd0bbdea07368d\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "296,374,471,562,678,809,892,1056,1183,1293,1410,1507,1607,1681,1766,1851,1955,2029,2103,2172,2246,2331,2416,2512,2606,2696,2765,2862,2958,3050,3163,3310,3408,3495,3593",
+                        "endColumns": "77,96,90,115,130,82,163,126,109,116,96,99,73,84,84,103,73,73,68,73,84,84,95,93,89,68,96,95,91,112,146,97,86,97,75",
+                        "endOffsets": "373,470,561,677,808,891,1055,1182,1292,1409,1506,1606,1680,1765,1850,1954,2028,2102,2171,2245,2330,2415,2511,2605,2695,2764,2861,2957,3049,3162,3309,3407,3494,3592,3668"
+                    },
+                    "to": {
+                        "startLines": "21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2068,2150,2251,2346,2466,2597,2684,2852,2983,3097,3218,3319,3423,3501,3590,3679,3787,4348,4426,4499,4577,4666,4755,4855,4953,5047,5120,5221,5321,5417,5534,5681,5783,5874,5976",
+                        "endColumns": "81,100,94,119,130,86,167,130,113,120,100,103,77,88,88,107,77,77,72,77,88,88,99,97,93,72,100,99,95,116,146,101,90,101,79",
+                        "endOffsets": "2145,2246,2341,2461,2592,2679,2847,2978,3092,3213,3314,3418,3496,3585,3674,3782,3860,4421,4494,4572,4661,4750,4850,4948,5042,5115,5216,5316,5412,5529,5676,5778,5869,5971,6051"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.8.0.aar\\21986ace7caa1d61c18502b72c331937\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "281,381,575,698,803,1027,1155,1308,1437,1677,1782,1974,2102,2320,2495,2589,2679",
+                        "endColumns": "99,193,122,104,223,127,152,128,239,104,191,127,217,174,93,89,105",
+                        "endOffsets": "380,574,697,802,1026,1154,1307,1436,1676,1781,1973,2101,2319,2494,2588,2678,2784"
+                    },
+                    "to": {
+                        "startLines": "60,61,62,63,64,65,66,67,69,70,71,72,73,74,75,76,77",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "6056,6160,6354,6481,6590,6814,6946,7103,7431,7671,7780,7972,8104,8322,8501,8599,8693",
+                        "endColumns": "103,193,126,108,223,131,156,132,239,108,191,131,217,178,97,93,109",
+                        "endOffsets": "6155,6349,6476,6585,6809,6941,7098,7231,7666,7775,7967,8099,8317,8496,8594,8688,8798"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\75a9d87d2f8c9d5552cf5464380641d7\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,154,260,369,482,574,659,755,863,958,1053,1149,1242,1355,1480,1567,1648,1737,1844,1932",
+                        "endColumns": "98,105,108,112,91,84,95,107,94,94,95,92,112,124,86,80,88,106,87,94",
+                        "endOffsets": "149,255,364,477,569,654,750,858,953,1048,1144,1237,1350,1475,1562,1643,1732,1839,1927,2022"
+                    },
+                    "to": {
+                        "startLines": "80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "9006,9105,9211,9320,9433,9525,9610,9706,9814,9909,10004,10100,10193,10306,10431,10518,10599,10688,10795,10883",
+                        "endColumns": "98,105,108,112,91,84,95,107,94,94,95,92,112,124,86,80,88,106,87,94",
+                        "endOffsets": "9100,9206,9315,9428,9520,9605,9701,9809,9904,9999,10095,10188,10301,10426,10513,10594,10683,10790,10878,10973"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.8.0.aar\\3b952637c42a923f36c9a9a4ae9a389e\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "238",
+                        "endColumns": "104",
+                        "endOffsets": "342"
+                    },
+                    "to": {
+                        "startLines": "111",
                         "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startOffsets": "11952",
+                        "endColumns": "108",
+                        "endOffsets": "12056"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\c20fffa3c4320ed8b33e09f8d1582739\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "283",
+                        "endColumns": "194",
+                        "endOffsets": "477"
+                    },
+                    "to": {
+                        "startLines": "68",
+                        "startColumns": "4",
+                        "startOffsets": "7236",
+                        "endColumns": "194",
+                        "endOffsets": "7426"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.2.0.aar\\4c9d9b78fa3e84beb4d567a1480d2448\\res\\values-vi\\values-vi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,169,277,400,508,617,701,804,923,1000,1077,1161,1265,1374,1475,1580,1694,1799,1919,2018,2102",
+                        "endColumns": "113,107,122,107,108,83,102,118,76,76,83,103,108,100,104,113,104,119,98,83,100",
+                        "endOffsets": "164,272,395,503,612,696,799,918,995,1072,1156,1260,1369,1470,1575,1689,1794,1914,2013,2097,2198"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,109,110",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,327,450,558,667,751,854,973,1050,1127,1211,1315,1424,1525,1630,1744,1849,1969,11767,11851",
+                        "endColumns": "113,107,122,107,108,83,102,118,76,76,83,103,108,100,104,113,104,119,98,83,100",
+                        "endOffsets": "214,322,445,553,662,746,849,968,1045,1122,1206,1310,1419,1520,1625,1739,1844,1964,2063,11846,11947"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-11.8.0.aar\\0abbfe5b1b79a54f2b0335d480145b12\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "241",
+                        "endColumns": "98",
+                        "endOffsets": "339"
+                    },
+                    "to": {
+                        "startLines": "78",
+                        "startColumns": "4",
+                        "startOffsets": "8803",
+                        "endColumns": "102",
+                        "endOffsets": "8901"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\maher.megadmini\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-gcm-11.8.0.aar\\025aaf7a3a61e57c0945e24534edebe2\\res\\values-vi\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "228",
+                        "endColumns": "95",
+                        "endOffsets": "323"
+                    },
+                    "to": {
+                        "startLines": "79",
+                        "startColumns": "4",
+                        "startOffsets": "8906",
+                        "endColumns": "99",
+                        "endOffsets": "9001"
                     }
                 }
             ]

@@ -1,12 +1,12 @@
 package com.rogansoft.tasksdemo.sync;
 
-import java.util.List;
-
 import android.util.Log;
 
 import com.rogansoft.sync.Datastore;
 import com.rogansoft.tasksdemo.api.TaskApi;
 import com.rogansoft.tasksdemo.domain.Task;
+
+import java.util.List;
 
 public class TaskSyncRemoteDatastore implements Datastore<Task> {
 	private static final String TAG = "TaskSyncRemoteDatastore";
