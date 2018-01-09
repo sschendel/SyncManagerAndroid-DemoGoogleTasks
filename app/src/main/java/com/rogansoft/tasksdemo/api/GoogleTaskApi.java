@@ -23,7 +23,7 @@ import java.util.List;
 public class GoogleTaskApi implements TaskApi {
 	//private static final String TAG = "TaskApi";
 
-	private RestAdapter mRestAdapter;
+	//private RestAdapter mRestAdapter;
 	private GoogleTaskApiService mService;
 	
 	class TaskTypeAdapter extends TypeAdapter<Task> {
@@ -114,32 +114,32 @@ public class GoogleTaskApi implements TaskApi {
 	public GoogleTaskApi(String authToken) {
 		final String token = authToken;
 
-		RequestInterceptor requestInterceptor = new RequestInterceptor() {
-			  @Override
-			  public void intercept(RequestFacade request) {
-			    request.addHeader("Authorization", "Bearer "+token);
-			  }
-		};
-		
-		Gson gson = 
-			    new GsonBuilder()
-        			.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
-			        .registerTypeAdapter(List.class, new TaskListDeserializer<List<TaskList>>())
-			        .registerTypeAdapter(List.class, new TaskListDeserializer<List<Task>>())
-			        .registerTypeAdapter(Task.class, new TaskTypeAdapter())
-			        .create();
-
-		mRestAdapter = new RestAdapter.Builder()
-			.setRequestInterceptor(requestInterceptor)
-			.setEndpoint(GoogleTaskApiService.API_BASE_URL)
-			.setConverter(new GsonConverter(gson))
-			.build();
-				
-		//Log.d(TAG, "retrofit log level:"+mRestAdapter.getLogLevel());
-		//mRestAdapter.setLogLevel(LogLevel.FULL);
-		//Log.d(TAG, "retrofit log level after setting full:"+mRestAdapter.getLogLevel());
-		
-		mService = mRestAdapter.create(GoogleTaskApiService.class);
+//		RequestInterceptor requestInterceptor = new RequestInterceptor() {
+//			  @Override
+//			  public void intercept(RequestFacade request) {
+//			    request.addHeader("Authorization", "Bearer "+token);
+//			  }
+//		};
+//
+//		Gson gson =
+//			    new GsonBuilder()
+//        			.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES)
+//			        .registerTypeAdapter(List.class, new TaskListDeserializer<List<TaskList>>())
+//			        .registerTypeAdapter(List.class, new TaskListDeserializer<List<Task>>())
+//			        .registerTypeAdapter(Task.class, new TaskTypeAdapter())
+//			        .create();
+//
+//		mRestAdapter = new RestAdapter.Builder()
+//			.setRequestInterceptor(requestInterceptor)
+//			.setEndpoint(GoogleTaskApiService.API_BASE_URL)
+//			.setConverter(new GsonConverter(gson))
+//			.build();
+//
+//		//Log.d(TAG, "retrofit log level:"+mRestAdapter.getLogLevel());
+//		//mRestAdapter.setLogLevel(LogLevel.FULL);
+//		//Log.d(TAG, "retrofit log level after setting full:"+mRestAdapter.getLogLevel());
+//
+//		mService = mRestAdapter.create(GoogleTaskApiService.class);
 	}
 	
 	public List<TaskList> getTaskList(){
