@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:1-57:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c408e3f5250b15a03cc21167282ca755\AndroidManifest.xml:17:1-22:12
+MERGED from [:syncManager] D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\syncManager\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a1eba93212a2c2defd90bac7bddaa74c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\05d24d13ab8707d4d0336c7b0988369d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\dc429f14b970861673a48f6575906b8d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0b29e01b5fc99507687bbce07778ac6d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\42c3a253abd4aa7b42a9a08e5da2c132\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\a1d2a3bc7166d64a7ca18d7a80ed7cbf\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:1-57:12
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:1-57:12
+	package
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:2:5-47
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c408e3f5250b15a03cc21167282ca755\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\c408e3f5250b15a03cc21167282ca755\AndroidManifest.xml:20:5-44
+MERGED from [:syncManager] D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\syncManager\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:syncManager] D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\syncManager\build\intermediates\manifests\full\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a1eba93212a2c2defd90bac7bddaa74c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\a1eba93212a2c2defd90bac7bddaa74c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\05d24d13ab8707d4d0336c7b0988369d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\05d24d13ab8707d4d0336c7b0988369d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\dc429f14b970861673a48f6575906b8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\dc429f14b970861673a48f6575906b8d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0b29e01b5fc99507687bbce07778ac6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\0b29e01b5fc99507687bbce07778ac6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\42c3a253abd4aa7b42a9a08e5da2c132\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\42c3a253abd4aa7b42a9a08e5da2c132\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\a1d2a3bc7166d64a7ca18d7a80ed7cbf\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\maher.megadmini\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\a1d2a3bc7166d64a7ca18d7a80ed7cbf\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:6:5-8:41
+INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:6:5-8:41
+	android:targetSdkVersion
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:7:9-35
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+		INJECTED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:10:5-11:57
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:11:13-55
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:12:5-13:67
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:13:13-65
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:14:5-15:68
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:15:13-66
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:16:5-17:61
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:17:13-59
+application
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:19:5-55:19
+	android:label
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:22:9-41
+	android:icon
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:21:9-45
+	android:allowBackup
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:23:9-40
+activity#com.rogansoft.tasksdemo.MainActivity
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:28:9-34:20
+	android:label
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:29:19-51
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:28:19-70
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:32:27-74
+activity#com.rogansoft.tasksdemo.AddTaskActivity
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:35:9-37:20
+	android:label
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:36:19-51
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:35:19-73
+service#com.rogansoft.tasksdemo.sync.TaskSyncAdapterService
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:39:3-48:19
+	android:process
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:42:17-40
+	android:exported
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:41:17-40
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:40:17-83
+intent-filter#android.content.SyncAdapter
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:43:13-45:29
+action#android.content.SyncAdapter
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:44:25-67
+meta-data#android.content.SyncAdapter
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:46:13-47:59
+	android:resource
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:47:21-56
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:46:24-66
+provider#com.rogansoft.tasksdemo.sync.TaskSyncContentProvider
+ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:50:6-54:35
+	android:authorities
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:52:10-84
+	android:syncable
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:54:10-33
+	android:exported
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:53:10-34
+	android:name
+		ADDED from D:\android_workspace\SyncManagerAndroid-DemoGoogleTasks\app\src\main\AndroidManifest.xml:51:10-77
