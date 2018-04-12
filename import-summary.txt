@@ -1,0 +1,88 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .gitignore
+* LICENSE
+* README.md
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\rogansoft\
+* doc\com\rogansoft\sync\
+* doc\com\rogansoft\sync\BuildConfig.html
+* doc\com\rogansoft\sync\IDatastore.html
+* doc\com\rogansoft\sync\ISyncable.html
+* doc\com\rogansoft\sync\R.attr.html
+* doc\com\rogansoft\sync\R.drawable.html
+* doc\com\rogansoft\sync\R.html
+* doc\com\rogansoft\sync\R.string.html
+* doc\com\rogansoft\sync\R.style.html
+* doc\com\rogansoft\sync\SyncManager.html
+* doc\com\rogansoft\sync\class-use\
+* doc\com\rogansoft\sync\class-use\BuildConfig.html
+* doc\com\rogansoft\sync\class-use\IDatastore.html
+* doc\com\rogansoft\sync\class-use\ISyncable.html
+* doc\com\rogansoft\sync\class-use\R.attr.html
+* doc\com\rogansoft\sync\class-use\R.drawable.html
+* doc\com\rogansoft\sync\class-use\R.html
+* doc\com\rogansoft\sync\class-use\R.string.html
+* doc\com\rogansoft\sync\class-use\R.style.html
+* doc\com\rogansoft\sync\class-use\SyncManager.html
+* doc\com\rogansoft\sync\package-frame.html
+* doc\com\rogansoft\sync\package-summary.html
+* doc\com\rogansoft\sync\package-tree.html
+* doc\com\rogansoft\sync\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-2.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\stylesheet.css
+* proguard-project.txt
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => syncManager\src\main\AndroidManifest.xml
+* src\ => syncManager\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
